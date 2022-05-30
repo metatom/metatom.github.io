@@ -13,6 +13,7 @@
 		<link href="css/all.min.css" rel="stylesheet" />
     </head>
     <body id="share">
+	    <input id="share_code" type="" style="position: absolute;top:-20px;height: 1px;width:1px" readonly>
         <!-- Navigation-->
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
@@ -103,5 +104,21 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+	<script>
+		share_code = '{$share_code}';
+		document.getElementById("share_code").value = "share_code="+share_code;
+		document.getElementById("download-1").addEventListener('click', function() {
+			document.getElementById("share_code").select();
+			if (document.execCommand('copy')) {
+			} else {
+			}
+		});
+		document.getElementById("download-2").addEventListener('click', function() {
+			document.getElementById("share_code").select();
+			if (document.execCommand('copy')) {
+			} else {
+			}
+		});
+	</script>
     </body>
 </html>
