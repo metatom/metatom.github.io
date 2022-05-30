@@ -100,25 +100,26 @@
 			</div>
 		</section>
         
-        <!-- Bootstrap core JS-->
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-	<script>
-		share_code = '';
-		document.getElementById("share_code").value = "share_code="+share_code;
-		document.getElementById("download-1").addEventListener('click', function() {
-			document.getElementById("share_code").select();
-			if (document.execCommand('copy')) {
-			} else {
+       <script>
+			share_code = '';
+			const params = new URLSearchParams(window.location.search);
+			if(params.has('share_code')) {
+				share_code = params.get('share_code')
 			}
-		});
-		document.getElementById("download-2").addEventListener('click', function() {
-			document.getElementById("share_code").select();
-			if (document.execCommand('copy')) {
-			} else {
-			}
-		});
-	</script>
+			document.getElementById("share_code").value = "share_code_MetaDoor="+share_code;
+			document.getElementById("download-1").addEventListener('click', function() {
+				document.getElementById("share_code").select();
+				if (document.execCommand('copy')) {
+				} else {
+				}
+			});
+			document.getElementById("download-2").addEventListener('click', function() {
+				document.getElementById("share_code").select();
+				if (document.execCommand('copy')) {
+				} else {
+				}
+				console.log(share_code);
+			});
+		</script>
     </body>
 </html>
