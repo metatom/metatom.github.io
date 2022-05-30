@@ -57,7 +57,7 @@
 						<div class="download-wrap ios-bg text-center">
 							<img src="images/ios.png" />
 							<div class="download-btn">
-								<a class="btn btn-yanjie" href="#"><i class="fa-solid fa-download"></i> IOS下载</a>
+								<a id="download-1" class="btn btn-yanjie" href="#"><i class="fa-solid fa-download"></i> IOS下载</a>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 						<div class="download-wrap anz-bg text-center">
 							<img src="images/Android.png" />
 							<div class="download-btn">
-								<a class="btn btn-yanjie" href="https://lb.yydu0.com/yuanjie/android-metadoor-20220526-v1.1.0.apk"><i class="fa-solid fa-download"></i> Android下载</a>
+								<a id="download-2" class="btn btn-yanjie" href="https://lb.yydu0.com/yuanjie/android-metadoor-20220526-v1.1.0.apk"><i class="fa-solid fa-download"></i> Android下载</a>
 							</div>
 						</div>
 					</div>
@@ -105,7 +105,7 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
 	<script>
-		share_code = '{$share_code}';
+		share_code = '';
 		document.getElementById("share_code").value = "share_code="+share_code;
 		document.getElementById("download-1").addEventListener('click', function() {
 			document.getElementById("share_code").select();
