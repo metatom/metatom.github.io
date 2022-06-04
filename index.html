@@ -8,118 +8,146 @@
         <title>元子网络 Metatom Network</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.png" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-		<link href="css/style.css" rel="stylesheet" />
-		<link href="css/all.min.css" rel="stylesheet" />
+       	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+	<link href="css/all.min.css" rel="stylesheet" />
+	<style>
+		#share { background: url("images/share-brg.jpg") no-repeat top center; background-color: #24223a; font-family: 'Poppins', sans-serif; height: 100%; color: #fff; background-size: cover;}
+		.navbar-brand { margin-right: 8rem;}
+		.navbar-brand img { image-rendering: -webkit-optimize-contrast; width: 60px;}
+		.main-heading {  padding: 50px 0;}
+		.main-heading h1{ font-size: 4.5rem; color: #fff;}
+		.main-heading h2, .box h3, .box p { color: #fff;}
+		.main-heading h5 { line-height: 1.8; color: #fff;}
+		.main-img img { max-width: 100%;}
+		.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover, .language-btn:hover { color: #f2c242;} 
+		.download-wrap { margin: 20px 0;}
+		.download-wrap.ios-bg { background: url("images/ios1.png") no-repeat top center; padding: 80px 0; border-radius: 25px; background-size: cover;}
+		.download-wrap.anz-bg { background: url("images/anz1.png") no-repeat top center; padding: 80px 0; border-radius: 25px;  background-size: cover;}
+		.download-wrap img { width: 64px;}
+		.download-btn { margin: 20px 0;}
+		.btn-yanjie { background-color: rgba(255,255,255,0.6); clear: both; padding: 5px 40px; border-radius: 12px; width: 50%; color: #fff;}
+		.box-3 { background-color: #24223a; border-radius: 12px;padding: 2rem; margin-bottom: 30px;}
+		.box-3 h6, .box-3 img { display: inline-block; vertical-align: middle;}
+		.box-3 img { margin-bottom: 15px;}
+		.box-3 h6 { margin: 0 10px 15px 10px; color: #fff;}
+		.box-3 a h6 { text-decoration: underline;}
+		.seperate-line { border-right: 1px solid #fff;}
+	</style>
     </head>
-    <body id="share">
-	    <input id="share_code" type="" style="position: absolute;top:-20px;height: 1px;" readonly>
-        <!-- Navigation-->
+    <body style="background-color: #120f24;">
+	<section id="share" class="py-5">
 		<header>
+			<input id="share_code" type="" style="position: relative;top:-20px;height: 1px;z-index: -1;" readonly>
 			<nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
 				<div class="container px-4">
-					<a class="navbar-brand py-3" href="#home"><img src="images/logo.png" alt="元界" />元子网络</a>
+					<a class="navbar-brand py-3" href="#share"><img src="images/logo.png" alt="元界" />元子网络</a>
 				</div>
 			</nav>
 		</header>
-		
-		<section id="home" class="py-5">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-12">
-						<div class="main-heading text-center">
-							<h1><b>元子网络</b></h1>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-12">
+					<div class="main-heading text-center">
+						<h1><b>元子网络</b></h1>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="main-content">
+						<div style="background: linear-gradient(90deg, rgba(54,68,132,0.6) 0%, rgba(54,68,132,0.6) 50%, rgba(54,68,132,0) 100%); padding: 25px; margin: 15px 0; border-radius: 25px;">
+							<h3><b>元子网络</b></h3>
+							<p>元子网络 Metatom Network是一款分布式的带宽共享网络工具，结合了贡献挖矿通证模型，在用户成为分布式节点并贡献带宽的同时并给与一定的通证激励。</p>
+						</div>
+						<div style="background: linear-gradient(90deg, rgba(54,68,132,0.6) 0%, rgba(54,68,132,0.6) 50%, rgba(54,68,132,0) 100%); padding: 25px; margin: 15px 0; border-radius: 25px;">
+							<h3><b>MPN</b></h3>
+							<p>MPN是元子网络 Metatom Network的唯一激励通证，激励用户在推广或贡献带宽的同时也能获得一定的收益，MPN的价值靠全网的共识，共识越高，价值越大。</p>
 						</div>
 					</div>
-					<div class="col-lg-12 text-center">
-						<h2><b>元子网络</b></h2>
-						<h3>元子网络 Metatom Network是一款分布式的带宽共享网络工具，结合了贡献挖矿通证模型，在用户成为分布式节点并贡献带宽的同时并给与一定的通证激励。</h3>
-						<h2 class="mt-5"><b>MPN</b></h2>
-						<h3>MPN是元子网络 Metatom Network的唯一激励通证，激励用户在推广或贡献带宽的同时也能获得一定的收益，MPN的价值靠全网的共识，共识越高，价值越大。</h3>
+				</div>
+				<div class="col-lg-6">
+					<div class="main-img">
+						<img src="images/icon_yangji.png" alt="yanjie VPN">
 					</div>
-					<div class="col-lg-12 text-center">
-						<div class="main-img mt-5">
-							<img src="images/icon_yangji.png" alt="元子网络"/>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="download" class="py-5">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-12">
+					<div class="main-heading text-center">
+						<h2><b>元子网络最新客户端</b></h2>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="download-wrap ios-bg text-center">
+						<img src="images/ios.png" />
+						<div class="download-btn">
+							<a id="download-1" class="btn btn-yanjie" href="#"><i class="fa-solid fa-download"></i> | 立即下载</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="download-wrap anz-bg text-center">
+						<img src="images/Android.png" />
+						<div class="download-btn">
+							<a id="download-2" class="btn btn-yanjie" href="https://metadoor.zgpaper.cn/index/download/android-website"><i class="fa-solid fa-download"></i> | 立即下载</a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<section id="download" class="py-5">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-12">
-						<div class="main-heading text-center">
-							<h2><b>元子网络最新客户端</b></h2>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="download-wrap ios-bg text-center">
-							<img src="images/ios.png" />
-							<div class="download-btn">
-								<a id="download-1" class="btn btn-yanjie" href="#"><i class="fa-solid fa-download"></i> IOS下载</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="download-wrap anz-bg text-center">
-							<img src="images/Android.png" />
-							<div class="download-btn">
-								<a id="download-2" class="btn btn-yanjie" href="https://metadoor.zgpaper.cn/index/download/android-website"><i class="fa-solid fa-download"></i> Android下载</a>
-							</div>
-						</div>
+		</div>
+	</section>
+	<section id="contact" class="pb-5">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-12">
+					<div class="main-heading text-center">
+						<h2><b>联系我们</b></h2>
 					</div>
 				</div>
 			</div>
-		</section>
-		<section id="contact" class="py-5">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-12">
-						<div class="main-heading text-center">
-							<h2><b>联系我们</b></h2>
-						</div>
+			<div class="row align-items-center box-3">
+				<div class="col-6">
+					<div class="text-center">
+						<a href="https://t.me/+iQsRRNkRQY82Y2E1">
+							<img class="mb-4" src="images/telegram.png" alt="" />
+							<h6>Telegram 中文客服群</h6>
+						</a>
 					</div>
-					<div class="col-6">
-						<div class="box-3 bg-tr text-center">
-							<a href="https://t.me/+iQsRRNkRQY82Y2E1">
-								<img class="mb-4" src="images/telegram.png" alt="" />
-								<h6>Telegram 中文客服群</h6>
-							</a>
-						</div>
-					</div>
-					<div class="col-6">
-						<div class="box-3 bg-tr text-center">
-							<a href="https://t.me/+qJudnjSNrYdjMzJl">
-								<img class="mb-4" src="images/telegram.png" alt="" />
-								<h6>Telegram 英文客服群</h6>
-							</a>
-						</div>
+				</div>
+				<div class="col-6">
+					<div class="tr text-center">
+						<a href="https://t.me/+qJudnjSNrYdjMzJl">
+							<img class="mb-4" src="images/telegram.png" alt="" />
+							<h6>Telegram 英文客服群</h6>
+						</a>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
         
        <script>
-			share_code = '';
-			const params = new URLSearchParams(window.location.search);
-			if(params.has('share_code')) {
-				share_code = params.get('share_code')
+		share_code = '';
+		const params = new URLSearchParams(window.location.search);
+		if(params.has('share_code')) {
+			share_code = params.get('share_code')
+		}
+		document.getElementById("share_code").value = "share_code_MetaDoor="+share_code;
+		document.getElementById("download-1").addEventListener('click', function() {
+			document.getElementById("share_code").select();
+			if (document.execCommand('copy')) {
+			} else {
 			}
-			document.getElementById("share_code").value = "share_code_MetaDoor="+share_code;
-			document.getElementById("download-1").addEventListener('click', function() {
-				document.getElementById("share_code").select();
-				if (document.execCommand('copy')) {
-				} else {
-				}
-			});
-			document.getElementById("download-2").addEventListener('click', function() {
-				document.getElementById("share_code").select();
-				if (document.execCommand('copy')) {
-				} else {
-				}
-				console.log(share_code);
-			});
-		</script>
+		});
+		document.getElementById("download-2").addEventListener('click', function() {
+			document.getElementById("share_code").select();
+			if (document.execCommand('copy')) {
+			} else {
+			}
+			console.log(share_code);
+		});
+	</script>
     </body>
 </html>
