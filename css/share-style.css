@@ -1,0 +1,38 @@
+#share { background: url("../images/share-brg.jpg") no-repeat top center; background-color: #24223a; font-family: 'Poppins', sans-serif; height: 100%; color: #fff; background-size: cover;}
+.navbar-brand { margin-right: 8rem;}
+.navbar-brand img { image-rendering: -webkit-optimize-contrast; width: 60px;}
+.main-heading {}
+.main-heading h1{ font-size: 3rem; color: #fff; padding-bottom: 15px;}
+.main-heading h2, .box h3, .box p { color: #fff;}
+.main-heading h5 { line-height: 1.8; color: #fff;}
+.main-img img { max-width: 100%;}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover, .language-btn:hover { color: #f2c242;} 
+.download-wrap { margin: 20px 0;}
+.download-wrap.ios-bg { background: url("../images/ios1.png") no-repeat top center; padding: 80px 0; border-radius: 25px; background-size: cover;}
+.download-wrap.anz-bg { background: url("../images/anz1.png") no-repeat top center; padding: 80px 0; border-radius: 25px;  background-size: cover;}
+.download-wrap img { width: 64px;}
+.download-btn { margin: 20px 0;}
+.download-btn img { width: 32px;}
+.btn-yanjie { background-color: rgba(255,255,255,0.6); clear: both; padding: 15px 30px; border-radius: 12px; width: 50%; color: #fff;}
+.box-3 { background-color: #24223a; border-radius: 12px;padding: 2rem 2rem 1rem 2rem;}
+.box-3 h6, .box-3 img { display: inline-block; vertical-align: middle;}
+.box-3 img { margin-bottom: 15px;}
+.box-3 h6 { margin: 0 10px 15px 10px; color: #fff;}
+.box-3 a h6 { text-decoration: underline;}
+.seperate-line { border-right: 1px solid #fff;}
+.mobile { display: none;}
+.text-left { text-align: left;}
+
+@media (max-width: 991px) {
+	h1 { font-size: 2rem;}
+	h2 { font-size: 1.75rem;}
+	h3 { font-size: 1.5rem;}
+	h4 { font-size: 1.25rem;}
+	h5 { font-size: 1rem;}
+	#share { background: url("../images/share-mobile-brg.jpg") no-repeat top center; background-size: cover;}
+	.mobile { display: inline;}
+	.desktop { display: none;}
+	.btn-yanjie { width: 80%;}
+	.seperate-line { border: none; border-bottom: 1px solid #fff;}
+	.main-img {margin-top: 15px;}
+}
