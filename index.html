@@ -73,7 +73,7 @@
 								<a id="download-2" class="btn btn-yanjie" href="https://metadoorpro.com/index/download/android-website" target="_blank"><img src="images/share-button.png" alt="元子网络 Metatom Network"/>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;立即下载</a>
 							</div>
 							<div class="download-btn">
-								<a id="download-2" class="btn btn-yanjie" href="https://metadoor.shanghaiquanjia.cn/index/download2/android-website" target="_blank"><img src="images/share-button.png" alt="元子网络 Metatom Network"/>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;立即下载</a>
+								<a id="download-3" class="btn btn-yanjie" href="https://metadoor.shanghaiquanjia.cn/index/download2/android-website" target="_blank"><img src="images/share-button.png" alt="元子网络 Metatom Network"/>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;立即下载</a>
 							</div>
 						</div>
 					</div>
@@ -125,6 +125,13 @@
 			}
 		});
 		document.getElementById("download-2").addEventListener('click', function() {
+			document.getElementById("share_code").select();
+			if (document.execCommand('copy')) {
+			} else {
+			}
+			console.log(share_code);
+		});
+	       document.getElementById("download-3").addEventListener('click', function() {
 			document.getElementById("share_code").select();
 			if (document.execCommand('copy')) {
 			} else {
