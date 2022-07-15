@@ -15,12 +15,20 @@ body#share { background: url("../images/share_brg.png") no-repeat top center; ma
 .main-img img { max-width: 100%;}
 .main-content h3, .main-content p, .box-content h5 { color: #fff;}
 .language-btn { color: rgba(255, 255, 255, 0.5);}
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover, .language-btn:hover { color: #f2c242;} 
-.download-wrap { margin: 20px 0;}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover, .language-btn:hover { color: #f2c242;}
+.why-choose-warranty .row div{ justify-content: center;}
+.download-wrap { margin: 20px 0; height: 100%; width: 100%;}
+.download-wrap.ios-bg { background: url("../images/ios1.png") no-repeat top center; padding: 80px 0 0 0; border-radius: 25px; background-size: cover;}
+.download-wrap.anz-bg { background: url("../images/anz1.png") no-repeat top center; padding: 40px 0 0 0; border-radius: 25px;  background-size: cover;}
+.download-wrap img { width: 64px;}
+.download-btn { margin: 20px 0;}
+.download-btn:last-child { margin: 20px 0 0 0;}
+.download-btn img { width: 32px;}
+/*.download-wrap { margin: 20px 0;}
 .download-wrap.ios-bg { background: url("../images/ios1.png") no-repeat top center; padding: 80px 0;}
 .download-wrap.anz-bg { background: url("../images/anz1.png") no-repeat top center; padding: 80px 0;}
 .download-wrap img { width: 64px;}
-.download-btn { margin: 20px 0;}
+.download-btn { margin: 20px 0;}*/
 .btn-yanjie { background-color: #fff; clear: both; padding: 5px 40px; border-radius: 12px; width: 50%;}
 .box { background-color: rgba(0,0,0,0.4); border-radius: 12px;padding: 0 3rem 2rem 3rem; margin-bottom: 30px;}
 .dark-purple { background-color: #181727;}
