@@ -6,13 +6,21 @@
 .main-heading h2, .box h3, .box p { color: #fff;}
 .main-heading h5 { line-height: 1.8; color: #fff;}
 .main-img img { max-width: 100%;}
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover, .language-btn:hover { color: #f2c242;} 
-.download-wrap { margin: 20px 0;}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover, .language-btn:hover { color: #f2c242;}
+.why-choose-warranty .row div{ justify-content: center;}
+.download-wrap { margin: 20px 0; height: 100%; width: 100%;}
+.download-wrap.ios-bg { background: url("../images/ios1.png") no-repeat top center; padding: 80px 0 0 0; border-radius: 25px; background-size: cover;}
+.download-wrap.anz-bg { background: url("../images/anz1.png") no-repeat top center; padding: 40px 0 0 0; border-radius: 25px;  background-size: cover;}
+.download-wrap img { width: 64px;}
+.download-btn { margin: 20px 0;}
+.download-btn:last-child { margin: 20px 0 0 0;}
+.download-btn img { width: 32px;}
+/*.download-wrap { margin: 20px 0;}
 .download-wrap.ios-bg { background: url("../images/ios1.png") no-repeat top center; padding: 80px 0; border-radius: 25px; background-size: cover;}
 .download-wrap.anz-bg { background: url("../images/anz1.png") no-repeat top center; padding: 80px 0; border-radius: 25px;  background-size: cover;}
 .download-wrap img { width: 64px;}
 .download-btn { margin: 20px 0;}
-.download-btn img { width: 32px;}
+.download-btn img { width: 32px;}*/
 .btn-yanjie { background-color: rgba(255,255,255,0.6); clear: both; padding: 15px 30px; border-radius: 12px; width: 50%; color: #fff;}
 .box-3 { background-color: #24223a; border-radius: 12px;padding: 2rem 2rem 1rem 2rem;}
 .box-3 h6, .box-3 img { display: inline-block; vertical-align: middle;}
